@@ -1,4 +1,4 @@
-# MiniSuperNet: A Simplified SuperServe-Inspired Dynamic Inference Model
+# MiniSuperNet: A Simplified SuperServe-Like Dynamic Inference Model
 
 This project is a PyTorch-based prototype that reimplements core ideas from the research paper [**SuperServe: Fine-Grained Inference Serving for Unpredictable Workloads**](https://arxiv.org/abs/2312.16733), authored by Alind Khare, Dhruv Garg, Sukrit Kalra, Snigdha Grandhi, Ion Stoica, and Alexey Tumanov.
 
