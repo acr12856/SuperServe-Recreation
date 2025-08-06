@@ -4,7 +4,7 @@ This project is a PyTorch-based prototype that reimplements core ideas from the 
 
 The goal of this is to explore latency-aware inference ideas that are explored in this paper, including **LayerSelect**, **WeightSlice**, and **SubnetNorm**.
 
-TODO: This is a work in progress. I plan on adding an actual sampling configuration function for SubnetNorm to actually peform, a more sophisticated WeightSlice, as well as benchmarking to show the impact of this work. 
+TODO: This is a work in progress. I currently have a basic implementation in with basic implementations of the above main features as well as some benchmarking, however the accuracies of different subnets are not representative of what they theoretically should be (next up!).
 ---
 
 ## LayerSelect 
