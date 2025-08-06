@@ -23,11 +23,5 @@ These precomputed statistics are ideally generated through training. I currently
 ---
 
 ## Example Usage 
-This is an example usage that simply shows shape. Eventually, my goal is to add benchmarking to highlight the memory and latency efficiencies achieved.  
-
-```python
-model = MiniSuperNet(depth=3, width_mult=0.75)
-model.set_active_config("D3_W75")
-
-x = torch.randn(8, 3, 32, 32)  # batch of 8 CIFAR-like images
-logits = model(x)              # output shape: [8, 10]
+You can run the cells in the notebook, and the last cell will show some benchmarking information including latencies and accuracies. 
+**NOTE** The accuracies are currently incorrect and are a problem I am working to fix.
